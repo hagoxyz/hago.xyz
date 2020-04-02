@@ -12,7 +12,7 @@ Hago 是一套`渐进式`的`服务提供者框架`。框架为客户端提供�
 
 - `Hago Core` 是最小可用框架。仅提供最基础的功能，是其他框架开发者作为基础的理想选择。
 - `Hago Framework` 以最小可用框架作为基础，提供了常见的基础组件来减少开发者们不必要的工作。
-- `Hago For Unity` 在Framework的基础上增加了对Unity的专有组件支持（要求Unity 2017+）。
+- `Hago For Game` 在Framework的基础上增加了对Game的专有组件支持。
 
 ## Hago的优势
 
@@ -26,10 +26,5 @@ Hago 是一套`渐进式`的`服务提供者框架`。框架为客户端提供�
 
 ## 学习路线图
 
-Hago是易于上手的。你只需要有良好的 C# 基础。你就可以非常快速地通过阅读这份 指南 投入开发。
+Hago是易于上手的。你只需要有良好的 Golang 基础。你就可以非常快速地通过阅读这份 指南 投入开发。
 
-- [服务提供者](architecture/service-provider.html): 了解服务提供者的基本概念，以及系统架构。
-- [应用程序](architecture/application.html): 了解核心框架的运行生命周期，以及具备的功能。
-- [服务容器](architecture/container.html): 了解核心容器的运行原理以及可用方法。
-- [服务门面](architecture/facade.html): 了解服务门面概念，对比常规静态方法。
-- [风格指南](style.html): 帮助开发者避免错误，降低沟通成本，解决小纠结和[反模式](anti-pattern.html)。

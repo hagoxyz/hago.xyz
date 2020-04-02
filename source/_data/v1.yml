@@ -10,7 +10,7 @@ navigation:
   -
     divider: true
   -
-    text: -- 起步
+    text: -- 启程
   -
     text: 介绍
     href: index.html
@@ -24,16 +24,8 @@ navigation:
     text: 已知BUG
     href: bug.html
   -
-    text: -- 系统架构
+    text: -- 分布式原理
   -
-    text: 应用程序
-    href: architecture/application.html
-  -
-    text: 服务容器
-    href: architecture/container.html
-  -
-    text: -- 框架组件
-  -
-    text: 事件系统
-    href: components/event.html
+    text: 基础-CAP原理
+    href: distributed/cap.html
   
