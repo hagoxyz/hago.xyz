@@ -26,6 +26,27 @@ navigation:
   -
     text: -- 分布式原理
   -
-    text: 基础-CAP原理
+    text: 基础-CAP定理
     href: distributed/cap.html
+  -
+    text: 基础-Base理论
+    href: distributed/base.html
+  -
+    text: 基础-一致性协议之 2PC
+    href: distributed/2pc.html
+  -
+    text: 基础-一致性协议之 3PC
+    href: distributed/3pc.html
+  -
+    text: 基础-一致性协议之 Paxos
+    href: distributed/paxos.html
+  -
+    text: 基础-一致性协议之 Raft
+    href: distributed/raft.html
+  -
+    text: 基础-一致性协议之 ZAB
+    href: distributed/zab.html
+  -
+    text: 基础-一致性协议之 Consistent Hash
+    href: distributed/consistent-hash.html
   
