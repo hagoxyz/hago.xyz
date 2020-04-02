@@ -49,4 +49,34 @@ navigation:
   -
     text: 基础-一致性协议之 Consistent Hash
     href: distributed/consistent-hash.html
+  -
+    text: -- Go基础知识
+  -
+    text: 协程池
+    href: golang/consistent-hash.html
+  -
+    text: 并发控制器
+    href: golang/consistent-hash.html
+  -
+    text: LRU缓存
+    href: golang/lru.html
+  -
+    text: 排序
+    href: golang/sort.html
+  -
+    text: 设计模式
+    href: golang/design.html
+  -
+    text: 切片源码分析
+    href: golang/design.html
+  -
+    text: Map源码分析
+    href: golang/design.html
+  -
+    text: 时间轮
+    href: golang/timewheel.html
+    
+
+
+    
   
