@@ -1,0 +1,39 @@
+navigation:
+  -
+    levels:
+      -
+        text : Hago
+        href : /
+      -
+        text: 知识库
+        href : index.html
+  -
+    divider: true
+  -
+    text: -- 起步
+  -
+    text: 介绍
+    href: index.html
+  -
+    text: 风格指南
+    href: style.html
+  -
+    text: 常见问题
+    href: faq.html
+  -
+    text: 已知BUG
+    href: bug.html
+  -
+    text: -- 系统架构
+  -
+    text: 应用程序
+    href: architecture/application.html
+  -
+    text: 服务容器
+    href: architecture/container.html
+  -
+    text: -- 框架组件
+  -
+    text: 事件系统
+    href: components/event.html
+  
