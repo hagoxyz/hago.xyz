@@ -53,10 +53,10 @@ navigation:
     text: -- Go基础知识
   -
     text: 协程池
-    href: golang/consistent-hash.html
+    href: golang/goroutine-pool.html
   -
     text: 并发控制器
-    href: golang/consistent-hash.html
+    href: golang/concurrency-controller.html
   -
     text: LRU缓存
     href: golang/lru.html
@@ -67,16 +67,21 @@ navigation:
     text: 设计模式
     href: golang/design.html
   -
-    text: 切片源码分析
-    href: golang/design.html
+    text: Slice源码分析
+    href: golang/slice-src.html
   -
     text: Map源码分析
-    href: golang/design.html
+    href: golang/map-src.html
   -
     text: 时间轮
     href: golang/timewheel.html
-    
-
-
+  -
+    text: -- 游戏方案
+  -
+    text: 同步方案
+    href: game-plan/sync.html
+  -
+    text: 天梯积分
+    href: game-plan/elo.html
     
   
