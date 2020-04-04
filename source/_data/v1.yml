@@ -50,6 +50,9 @@ navigation:
     text: 【基础】一致性协议之 Consistent Hash
     href: distributed/basics/consistent-hash.html
   -
+    text: 【负载均衡】序
+    href: balance/preface.html
+  -
     text: 【负载均衡】HTTP重定向
     href: balance/http.html
   -
