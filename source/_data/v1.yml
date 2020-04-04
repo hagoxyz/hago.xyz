@@ -26,49 +26,49 @@ navigation:
   -
     text: -- 分布式原理
   -
-    text: 基础-CAP定理
+    text: 【基础】CAP定理
     href: distributed/basics/cap.html
   -
-    text: 基础-Base理论
+    text: 【基础】Base理论
     href: distributed/basics/base.html
   -
-    text: 基础-一致性协议之 2PC
+    text: 【基础】一致性协议之 2PC
     href: distributed/basics/2pc.html
   -
-    text: 基础-一致性协议之 3PC
+    text: 【基础】一致性协议之 3PC
     href: distributed/basics/3pc.html
   -
-    text: 基础-一致性协议之 Paxos
+    text: 【基础】一致性协议之 Paxos
     href: distributed/basics/paxos.html
   -
-    text: 基础-一致性协议之 Raft
+    text: 【基础】一致性协议之 Raft
     href: distributed/basics/raft.html
   -
-    text: 基础-一致性协议之 ZAB
+    text: 【基础】一致性协议之 ZAB
     href: distributed/basics/zab.html
   -
-    text: 基础-一致性协议之 Consistent Hash
+    text: 【基础】一致性协议之 Consistent Hash
     href: distributed/basics/consistent-hash.html
   -
-    text: 负载均衡-HTTP重定向
+    text: 【负载均衡】HTTP重定向
     href: balance/http.html
   -
-    text: 负载均衡-DNS域名解析
+    text: 【负载均衡】DNS域名解析
     href: balance/nds.html
   -
-    text: 负载均衡-反向代理
+    text: 【负载均衡】反向代理
     href: balance/reverse-proxy.html
   -
-    text: 负载均衡-IP负载
+    text: 【负载均衡】IP负载
     href: balance/ip.html
   -
-    text: 负载均衡-数据链路层
+    text: 【负载均衡】数据链路层
     href: balance/data-link-layer.html
   -
-    text: 负载均衡-算法
+    text: 【负载均衡】算法
     href: balance/arithmetic.html
   -
-    text: 负载均衡-延伸话题
+    text: 【负载均衡】延伸话题
     href: balance/extend.html
   -
     text: -- Go基础知识
