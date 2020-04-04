@@ -6,7 +6,7 @@ title:  Base 理论
 
 ## 什么是 Base 理论
 
-<div style="padding-left:30%"><img src="../../image/distributed/base/base.png" style="max-width:300px;"></div>
+<div style="padding-left:30%"><img src="../../../images/distributed/base/base.png" style="max-width:300px;"></div>
 
 ```
 BASE：全称：Basically Available(基本可用)，Soft state（软状态）,和 Eventually consistent（最终一致性）三个短语的缩写，来自 ebay 的架构师提出。

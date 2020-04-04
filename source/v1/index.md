@@ -4,7 +4,7 @@ title: 介绍
 
 # 介绍
 
-<a href="https://github.com/hagoxyz"><img src="../image/svg/license-MIT-blue.svg" title="license-mit" /></a> <a href="\"><img src="../image/svg/build.svg" title="Build status"/></a> <img src="../image/svg/downloads.svg" alt="Downloads" />
+<a href="https://github.com/hagoxyz"><img src="../images/svg/license-MIT-blue.svg" title="license-mit" /></a> <a href="\"><img src="../images/svg/build.svg" title="Build status"/></a> <img src="../images/svg/downloads.svg" alt="Downloads" />
 
 ## Hago是什么
 

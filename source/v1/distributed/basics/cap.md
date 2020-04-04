@@ -8,7 +8,7 @@ title:  CAP
 
 CAP 理论告诉我们，一个分布式系统不可能同时满足一致性（C:Consistency)，可用性（A: Availability）和分区容错性（P：Partition tolerance）这三个基本需求，最多只能同时满足其中的2个。
 
-<div style="padding-left:30%"><img src="../../image/distributed/cap/cap.png" style="max-width:300px;"></div>
+<div style="padding-left:30%"><img src="../../../images/distributed/cap/cap.png" style="max-width:300px;"></div>
 
 - `一致性（C）`是指“所有节点同时看到相同的数据”，即更新操作成功并返回客户端完成后，所有节点在同一时间的数据完全一致，等同于所有节点拥有数据的最新版本。
 
@@ -28,7 +28,7 @@ CAP 理论告诉我们，一个分布式系统不可能同时满足一致性（C
 
 首先问，能不能同时满足这三个条件？
 假设有一个系统如下：
-<div style="padding-left:20%"><img src="../../image/distributed/cap/3choose2.png" style="max-width:500px;"></div>
+<div style="padding-left:20%"><img src="../../../images/distributed/cap/3choose2.png" style="max-width:500px;"></div>
 
 <br>整个系统由两个节点配合组成，之间通过网络通信，当节点 A 进行更新数据库操作的时候，需要同时更新节点 B 的数据库（这是一个原子的操作）。
 <br>上面这个系统怎么满足 CAP 呢？C：当节点A更新的时候，节点B也要更新，A：必须保证两个节点都是可用的，P：当节点 A,B 出现了网络分区，必须保证对外可用。
@@ -45,11 +45,11 @@ CAP 理论告诉我们，一个分布式系统不可能同时满足一致性（C
 CAP 理论的证明有多种方式，通过反证的方式是最直观的。反证法来证明 CAP 定理，最早是由 Lynch 提出的，通过一个实际场景，
 如果 CAP 三者可同时满足，由于允许 P 的存在，则一定存在 Server 之间的丢包，如此则不能保证 C。
 
-<div style="padding-left:20%"><img src="../../image/distributed/cap/cap-client.jpg" style="max-width:500px;"></div>
+<div style="padding-left:20%"><img src="../../../images/distributed/cap/cap-client.jpg" style="max-width:500px;"></div>
 
 首先构造一个单机系统，如上图，Client A 可以发送指令到 Server 并且设置更新 X 的值，Client 1 从 Server 读取该值，在单点情况下，即没有网络分区的情况下，通过简单的事务机制，可以保证 Client 1 读到的始终是最新值，不存在一致性的问题。
 
-<div style="padding-left:20%"><img src="../../image/distributed/cap/cap-mul-client.jpg" style="max-width:500px;"></div>
+<div style="padding-left:20%"><img src="../../../images/distributed/cap/cap-mul-client.jpg" style="max-width:500px;"></div>
 
 我们在系统中增加一组节点，因为允许分区容错，Write 操作可能在 Server 1 上成功，在 Server 2 上失败，这时候对于 Client 1 和 Client 2，就会读取到不一致的值，出现不一致的情况。如果要保持 X 值的一致性，Write 操作必须同时失败， 也就是降低系统的可用性。
 
