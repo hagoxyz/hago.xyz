@@ -20,7 +20,8 @@ title: 负载均衡-算法
 - 为什么根据连接数可以合理地利用服务器处理请求呢？
 - 考虑一个客户端请求的处理逻辑较复杂，需要服务器的处理时间较长，由于客户端需要等待服务器的响应，故需要保持与服务器的连接，这样一来，客户端就需要与服务器保持较长时间的连接。
 - 假设客户端请求1，2，3，4，5已被分派给服务器1和服务器2，其分派的情况如图3所示：
-<div style="padding-left:30%"><img src="../../../images/balance/algorithm-least-connections.png" style="max-width:500px;"></div>
+
+<div style="padding-left:30%"><img src="../../../images/balance/algorithm-least-connections.svg" style="max-width:500px;"></div>
 
 
 - 此时，服务器上的请求1，请求3已处理完毕，与客户端的连接已断开。而请求2，4，5还在服务器上处理，即服务器还保持与这些请求的客户端的连接。
